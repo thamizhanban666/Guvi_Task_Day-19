@@ -17,7 +17,7 @@ function CheckBoxCount() {
 let form = document.getElementById("form")
 let btn = document.getElementById("submit");
 
-btn.addEventListener("click", () => {
+let btnFunction = () => {
 
    if (CheckBoxCount()) {
 
@@ -77,4 +77,4 @@ btn.addEventListener("click", () => {
  
       form.reset();
    }      
-})
+}
