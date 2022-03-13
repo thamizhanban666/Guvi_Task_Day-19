@@ -292,7 +292,7 @@ btnBraces.addEventListener("click", () => {
 })
 
 // function for key board keys click event
-keyPress = () => {
+let keyPress = () => {
    if (event.charCode >= 48 && event.charCode <= 57 || event.charCode === 46 || event.charCode === 47 || event.charCode >= 40 && event.charCode <= 43 || event.charCode === 45) {
       resultInput.value += key;
    }
